@@ -15,32 +15,47 @@ main {
     margin: 0px auto;
 }
 
-p {
+h3 {
+    font-size: 18px
+}
 
+p {
+    font-size: 15px
 }
 
 a {
-
+    color: white;
+    margin: 10px 0px;
+    padding: 7px 10px;
+    background-color: #554AF0;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 /* Колонки */
 
 .row {
-
+    display: flex;
+    margin: 10px -10px;
 }
 .col {
-
+    flex: auto;
+    margin: 10px 10px;
 }
 
 
 /* Потом селекторы по классам */
 
 .text-input {
-
+    padding: 9px 7px;
+    border-radius: 3px;
 }
 
 .button {
-
+    margin: 10px 0px;
+    padding: 7px 10px;
+    background-color: #554AF0;
+    border-radius: 5px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -48,27 +63,45 @@ a {
 /* Login*/
 
 .input-login {
-
-
+    margin: 8px 0px;
+    padding: 9px 7px;
+    border-radius: 3px;
+    display: block;
 }
 
 
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .genre-second {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: #CBEDFF;
+    border-radius: 5px;
+    width: 80%;
 }
 
 .genre-third {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: #E1F5EA;
+    border-radius: 5px;
+    width: 60%;
 }
 
 .genre-fourth {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: #EBDCF9;
+    border-radius: 5px;
+    width: 40%;
 }
 
 .tag {
